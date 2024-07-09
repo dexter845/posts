@@ -3,7 +3,7 @@
 		data () {
       return {
         posts: [],
-        host: 'https://postsposts.vercel.app',
+        host: 'https://posts-six-teal.vercel.app:8080',
         postEndpoint: '/api/posts'
       }
 		},
