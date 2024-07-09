@@ -1,9 +1,9 @@
 	const { createApp, ref } = Vue
 	createApp({
 		data () {
-			return {
+      return {
         posts: [],
-        host: 'http://localhost:8080',
+        host: process.env.NODE_ENV === 'production' ? 'https://example.com' : 'http://localhost:8080',
         postEndpoint: '/api/posts'
       }
 		},
