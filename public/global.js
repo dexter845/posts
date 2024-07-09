@@ -3,7 +3,7 @@
 		data () {
       return {
         posts: [],
-        host: process.env.NODE_ENV === 'production' ? 'https://example.com' : 'http://localhost:8080',
+        host: process.env.NODE_ENV === 'production' ? 'https://postsposts.vercel.app' : 'http://localhost:8080',
         postEndpoint: '/api/posts'
       }
 		},
